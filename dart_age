@@ -1,0 +1,17 @@
+void main(){
+
+  Days day = Days();
+    day.find_age();
+  
+}
+  class Days {
+  int dade_age = 57;
+  int son_age = 10;
+  void find_age(){    
+    if(dade_age > son_age){
+      int dif = dade_age - son_age;
+      int day = dif * 365;
+      print('Son Older Then Father \n:$dif Years =$day days'); 
+    }  
+  }
+}
